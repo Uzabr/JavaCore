@@ -6,7 +6,7 @@ import java.util.List;
 
 public class ThreeSum {
 
-    public static List<List<Integer>> threeSum(int[] nums) {
+    public static List<List<Integer>> threeSum(int[]nums) {
     Arrays.sort(nums);
     List<List<Integer>> result = new LinkedList<>();
     for (int i = 0; i + 2 < nums.length ; i++) {
@@ -35,4 +35,5 @@ public class ThreeSum {
     }
     return result;
     }
+
 }
